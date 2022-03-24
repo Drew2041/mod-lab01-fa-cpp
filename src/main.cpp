@@ -1,6 +1,6 @@
 // Copyright 2022 UNN-IASR
 #include "fun.h"
-#include "fun.cpp#
+#include "fun.cpp"
 int main() {
     const char* str = " FKmkm32 mkfl OFmlma 321 mnvAkfl OPe  ajfKA Mfa";
     std::cout << "faStr1 - " << faStr1(str);
