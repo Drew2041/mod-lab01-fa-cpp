@@ -8,7 +8,7 @@ unsigned int faStr1(const char *str) {
     int inWord = 0;
     int count = 0;
     while (str[i]){
-        if ((str[i] != ' ') && (str[i] != '/0') && (str[i - 1] == ' ')) {
+        if ((str[i] != ' ') && (str[i - 1] == ' ')) {
             count++;
             inWord = 1;
         }
@@ -26,8 +26,7 @@ unsigned int faStr2(const char *str) {
    int inWord = 0;
    int count = 0;
     while (str[i]){
-        if ((str[i] != ' ') && (str[i] != '/0') && 
-            (str[i - 1] == ' ') && (isupper(str[i]))) {
+        if ((str[i] != ' ')  && (str[i - 1] == ' ') && (isupper(str[i]))) {
           count++;
           inWord = 1;
         }
@@ -49,7 +48,7 @@ unsigned int faStr3(const char *str) {
     int count = 0;
     while (str[i])
     {
-        if ((str[i] != ' ') && (str[i] != '/0') && (str[i - 1] == ' ') ) {
+        if ((str[i] != ' ') && (str[i - 1] == ' ') ) {
             count++;
             inWord = 1;
         }       
