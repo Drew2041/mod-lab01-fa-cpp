@@ -40,7 +40,7 @@ unsigned int faStr2(const char *str) {
                     inWord = 0;
             }
     }
-    return count;
+    return count; 
 }
 unsigned int faStr3(const char *str) {
    int i = 0;
